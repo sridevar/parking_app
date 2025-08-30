@@ -1,0 +1,20 @@
+name: parking_app
+description: Simple parking app
+version: 1.0.0+1
+publish_to: "none"
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  firebase_core: ^2.19.1
+  firebase_auth: ^4.6.5
+  cloud_firestore: ^4.17.5
+  flutter_local_notifications: ^12.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
